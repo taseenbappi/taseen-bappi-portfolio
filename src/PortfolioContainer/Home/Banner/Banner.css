@@ -6,3 +6,8 @@
     color: rgb(13, 6, 43);
     transform: scale(1.2);
 }
+.profile-img{
+   height: 100%;
+   width: 50%;
+   
+}
