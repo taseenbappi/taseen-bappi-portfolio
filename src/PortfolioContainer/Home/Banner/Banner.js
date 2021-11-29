@@ -13,7 +13,7 @@ const Banner = () => {
                         <div className="profile-title">
                             {" "}
                             <span className="text-dark fw-bolder fs-5" >Hello, I'm
-                                <span className="text-danger fw-bolder fs-4"> Taseenul Hoque Bappi</span>
+                                <span className="profile-sub-title"> Taseenul Hoque Bappi</span>
                             </span>
                         </div>
                         <div className="profile-role fw-bolder fs-5 p-2">
@@ -34,6 +34,10 @@ const Banner = () => {
                         <a href="https://twitter.com/taseen_bappi" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter-square p-1 fs-3 "></i></a>
                         <a href="https://www.hackerrank.com/taseen_bappi" target="_blank" rel="noopener noreferrer"><i className="fab fa-hackerrank p-1 fs-3 "></i></a>
 
+                    </div>
+                    <div>
+                        <a href="./Taseenul_Hoque_Bappi_Resume.pdf" download><button className="btn btn-outline-dark m-3">Resume Download</button></a>
+                        <button className="btn btn-dark">Hire Me</button>
                     </div>
                 </div>
                 <div className="col-12 col-lg-5 col-md-5 col-sm-12 p-3">

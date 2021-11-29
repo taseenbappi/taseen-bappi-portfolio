@@ -1,5 +1,8 @@
+.profile-sub-title{
+    color: #562EFF;
+}
 .social-media a i{
-    color: rgb(212, 71, 71);
+    color: #562EFF;
     transition: transform .5s;
 }
 .social-media a i:hover{
