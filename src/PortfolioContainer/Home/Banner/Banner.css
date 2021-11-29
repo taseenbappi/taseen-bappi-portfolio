@@ -1,5 +1,14 @@
 .profile-sub-title{
     color: #562EFF;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+}
+.hello-txt{
+    color: #070318;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
 }
 .social-media a i{
     color: #562EFF;
@@ -11,6 +20,6 @@
 }
 .profile-img{
    height: 100%;
-   width: 50%;
+   width: 60%;
    
 }

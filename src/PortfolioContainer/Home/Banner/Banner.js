@@ -12,11 +12,11 @@ const Banner = () => {
                     <div className="profile-text">
                         <div className="profile-title">
                             {" "}
-                            <span className="text-dark fw-bolder fs-5" >Hello, I'm
+                            <span className="text-dark fw-bolder" ><span className="hello-txt">Hello, I'm</span>
                                 <span className="profile-sub-title"> Taseenul Hoque Bappi</span>
                             </span>
                         </div>
-                        <div className="profile-role fw-bolder fs-5 p-2">
+                        <div className="profile-role fw-bolder fs-4 p-2">
                             {" "}
                             <Typewriter
                                 options={{
