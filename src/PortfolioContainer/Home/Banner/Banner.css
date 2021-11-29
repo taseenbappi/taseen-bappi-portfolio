@@ -1,0 +1,8 @@
+.social-media a i{
+    color: rgb(212, 71, 71);
+    transition: transform .5s;
+}
+.social-media a i:hover{
+    color: rgb(13, 6, 43);
+    transform: scale(1.2);
+}
