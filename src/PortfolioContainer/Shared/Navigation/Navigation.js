@@ -1,12 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './Navigation.css';
 
 const Navigation = () => {
     return (
 
-        <nav className="navbar navbar-expand-lg navbar-white bg-white">
+        <nav className="navbar navbar-expand-lg navbar-dark bg-dark container-fluid fixed-top ">
             <div className="container-fluid">
-                <a className="navbar-brand  " href="/">BAPPI</a>
+                <Link className=" brand-title navbar-brand p-2" to="/home">Taseen Bappi</Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
@@ -16,16 +17,17 @@ const Navigation = () => {
                             <Link className="nav-link active" aria-current="page" to="/home">Home</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/#">Projects</a>
+
+                            <Link className="nav-link active" to="/home#projects">Projects</Link>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="/#">Blogs</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/#">About</a>
+                            <a className="nav-link" href="/home#about">About</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/#">Contact</a>
+                            <a className="nav-link" href="/home#contact">Contact</a>
                         </li>
 
                     </ul>

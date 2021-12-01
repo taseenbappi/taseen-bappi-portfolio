@@ -3,15 +3,15 @@ import './About.css';
 
 const About = () => {
     return (
-        <div className="container-fluid py-5">
+        <div className="container-fluid py-5" id="about">
             <h3 className="about-header overflow-hidden">About me</h3>
-            <div className="row">
+            <div className="row mx-auto">
                 <div className="col-12 col-lg-6 col-md-6 col-sm-12 p-3 text-start p-5" >
-                    <span className="text-primary fw-bolder">Taseenul Hoque Bappi,</span>
-                    <p>Dedicated and efficient full stack developer with 1+ years experience in application layers, presentation layers, and databases.Seeking a challenging position to build a long-term career in MERN stack developing. Passionate to learn up to date technologies to improve skill-sets. Specialized in MongoDB, Express.js, React.js, Node.js, Vanilla JavaScript, etc.</p>
+                    <span className="text-secondary fw-bolder fs-5">Taseenul Hoque Bappi,</span>
+                    <p className="text-secondary fs-5 lh-base" >Dedicated and efficient full stack developer with 1+ years experience in application layers, presentation layers, and databases. Seeking a challenging position to build a long-term career in MERN stack developing. Passionate to learn up to date technologies to improve skill-sets. Specialized in MongoDB, Express.js, React.js, Node.js, Vanilla JavaScript, etc.</p>
                 </div>
                 <div className="col-12 col-lg-6 col-md-6 col-sm-12 p-5 text-start">
-                    <span className="text-primary fw-bolder">Skills</span>
+                    <span className=" fw-bolder fs-4">Skills</span>
                     <div>
                         <button className="btn btn-dark m-2">HTML5</button>
                         <button className="btn btn-dark m-2">CSS3</button>

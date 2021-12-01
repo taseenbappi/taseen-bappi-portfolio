@@ -1,0 +1,14 @@
+.projects-header{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+.p-img{
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    transition: transform 1s;
+}
+.p-img:hover{
+    transform: scale(1.05) ;
+    
+}
